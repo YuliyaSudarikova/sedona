@@ -1,7 +1,8 @@
 body {
+	position: relative;
 	margin: 0 auto;
-	width: 1200px;
 	padding: 0;
+	width: 1200px;
 	background: #f2f2f2; 
 
 	/* Typography */
@@ -67,7 +68,8 @@ a {
 }
 .main-navigation-item:hover {
 	background-color: #dfedf6;
-	}
+	color: #81b3d2;
+}
 .main-navigation-link:hover {
 	color: #81b3d2;
 }
@@ -145,7 +147,7 @@ a {
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 }
-.reason-1 {
+.reason {
 	margin: 0;
 	padding: 0;
 	margin-bottom: 26px;
@@ -175,11 +177,15 @@ a {
 }
 .sedona-recomms {
 	margin: 0;
-	padding: 0;
-	padding-top: 60px;
+	padding: 0;	
 }
-.recomm-item-blocks {
+.item-blocks {
 	font-size: 0;
+	padding-top: 60px;
+	padding-bottom: 85px;
+	box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
 }
 .recomm-item {
 	margin: 0;
@@ -187,7 +193,6 @@ a {
 	display: inline-block;
 	font-size: 14px;
 	width: 400px;
-	height: 330px;
 	text-align: center;
 	box-sizing: border-box;
 		-moz-box-sizing: border-box;
@@ -206,21 +211,98 @@ a {
 	line-height: 21px;
 	color: #333;
 }
-/*.icon-food {
-	width: 74px;
-	height: 70px;
-	background-image: url(../img/icon_food.svg);
-	background-position: center;
-	background-repeat: no-repeat;
-}*/
+.icon {
+	margin-bottom: 32px;
+}
+#bg-item-block {
+	background-color: #eee;
+	padding-bottom: 63px;
+}
+.interest-block {
+	padding-top: 60px;
+	padding-bottom: 126px;
+	text-align: center;
+	line-height: 24px;
+}
+.demand {
+	margin: 0;
+	margin-bottom: 33px;
+	padding: 0;
+	font-size: 30px;
+	font-weight: 700;
+	color: #333;
+}
+.demand-description {
+	margin: 0;
+	padding: 0;
+
+}
+.map {
+	width: 100%;
+	height: 593px;
+	background: url(../img/map.jpg) no-repeat;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 1200px;
+	background-color: rgba(249,251,246,0.9);
+	z-index: 3;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+.footer-hashtag {
+	float: left;
+	width: 400px;
+	text-align: center;
+}
+.footer-social {
+	float: left;
+	width: 400px;
+	text-align: center;
+}
+.social-btn {
+	display: inline-block;
+	width: 46px;
+	height: 46px;
+	vertical-align: middle;	
+}
+.social-btn:hover {
+	background: #669ec0;
+}
+.social-btn:active {
+	background-color: #5496bd;
+}
+
+.social-tw {
+	background: url(../img/social_btn.png) no-repeat center left #81b3d2;
+}
+.social-yt {
+	background: url(../img/social_btn.png) no-repeat center right #81b3d2;
+}
+.social-fb {
+	background: url(../img/social_btn.png) no-repeat center #81b3d2;
+}
 
 
-
-
-
-
-
-
+.footer-copyright {
+	float: right;
+	width: 400px;
+	text-align: center;
+}
+.author {
+	display: inline-block;
+	vertical-align: middle;
+}
+.copyright-link {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 8px;
+}
+.author-link {
+	display: inline-block;
+	vertical-align: middle;
+}
 
 
 
