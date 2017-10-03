@@ -110,9 +110,42 @@
 				<p class="demand-description">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
 				<a class="btn-brown btn-brown-search" href="form.html">Поиск гостиницы в седонe</a>
 			</div>
-			
+			<div class="form-search-sedona">
+				<form action="#" method="post">
+					<!-- <button class="modal-content-close" title="Закрыть"></button> -->
+					<div class="param-block">
+						<p class="form-param">Дата заезда:</p>
+						<label for="date-check-in">
+							<input class="search-date field-check" id="date-check-in" name="date-check-in" type="date" value="2017-04-24">
+						</label>
+					</div>
+					<div class="param-block">
+						<p class="form-param">Дата выезда:</p>
+						<label for="date-checkout">
+							<input class="search-date field-check" id="date-checkout" name="date-checkout" type="date" value="2017-04-07">
+						</label>
+					</div>
+					<div class="param-block">
+						<p class="form-param">Взрослые:</p>
+						<label for="adults">
+							<button class="add-guest icon-minus" type="button"></button>
+							<input class="search-guest guest-add" id="adults" name="adults" type="number" placeholder="2">
+							<button class="add-guest icon-plus" type="button"></button>
+						</label>
+						<p class="form-param children-field">Дети:</p>
+						<label for="children">
+							<button class="add-guest icon-minus" type="button"></button>
+							<input class="search-guest guest-add" id="children" name="children" type="number">
+							<button class="add-guest icon-plus" type="button"></button>
+						</label>
+					</div>
+					<div class="search-modal-btn">
+						<button class="btn-blue btn-search-modal" type="submit" value="Найти">Найти</button>
+					</div>
+				</form>
+			</div>
+			<div class="map"></div>
 		</div>
-		<div class="map"></div>
 	</main>
 	<footer class="footer clearfix">
 		<div class="footer-hashtag">
@@ -130,41 +163,14 @@
 			</div>
 		</div>
 	</footer>
-	<div class="form-search-sedona">
-		<form action="#" method="post">
-			<!-- <button class="modal-content-close" title="Закрыть"></button> -->
-			<div class="param-block">
-				<p class="form-param">Дата заезда:</p>
-				<label for="date-check-in">
-					<input class="search-date field-check" id="date-check-in" name="date-check-in" type="date" value="2017-04-24">
-				</label>
-			</div>
-			<div class="param-block">
-				<p class="form-param">Дата выезда:</p>
-				<label for="date-checkout">
-					<input class="search-date field-check" id="date-checkout" name="date-checkout" type="date" value="2017-04-07">
-				</label>
-			</div>
-			<div class="param-block">
-				<p class="form-param">Взрослые:</p>
-				<label for="adults">
-					<input class="search-guest guest-add" id="adults" name="adults" type="number" placeholder="2">
-				</label>
-				<p class="form-param">Дети:</p>
-				<label for="children">
-					<input class="search-guest guest-add" id="children" name="children" type="number" min="1" max="20">
-				</label>
-			</div>
-
-			<div class="search-modal-btn">
-				<button class="btn-blue btn-search-modal" type="submit" value="Найти">Найти</button>
-			</div>
-		</form>
-	</div>
+	
+	<script src="js/script.js"></script>
+</body>
+</html>
 			
 			
 		
 		
-	</main>
+	
 
 	
