@@ -353,6 +353,10 @@ a {
 	text-align: center;
 	color: #fff;
 }
+.btn-blue {
+	background-color: #81b3d2;
+	color: #fff;
+}
 .btn-brown:hover {
 	background-color: #604e43;
 }
@@ -362,7 +366,7 @@ a {
 }
 .form-search-sedona {
 	position: absolute;
-	bottom: 281px;
+	bottom: 251px;
 	left: 314px;
 	padding: 55px;
 	width: 571px;
@@ -382,7 +386,6 @@ a {
 	display: inline-block;
 	margin: 0;
 	padding: 0;
-	margin-bottom: 29px;
 	margin-right: 5px;
 	width: 100px;
 	font-weight: 700;
@@ -392,6 +395,7 @@ a {
 	position: relative;
 	margin: 0;
 	padding: 0;
+	margin-bottom: 29px;
 	width: 346px;
 	text-align: center;
 	padding-top: 11px;
@@ -414,6 +418,61 @@ a {
 	right: 10px;
 	width: 21px;
 	height: 22px;
+	background-image: url(../img/calendar.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 4;
+}
+.field-check:hover:after {
+	content: "";
+	background-image: url(../img/calendar_hover.svg);
+}
+.field-check:active:after {
+	content: "";
+	background-image: url(../img/calendar_active.svg);
+}
+.btn-search-modal {
+	display: inline-block;
+	width: 100%;
+	font-size: 21px;
+	font-weight: 700;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	border: none;
+		-moz-box-sizing: none;
+		-webkit-box-sizing: none;
+
+}
+.search-guest {
+	position: relative;
+	margin-bottom: 54px;
+	width: 39px;
+	height: 36px; 
+	text-align: center;
+	background-color: #f2f2f2;
+	appearance: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+	box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+	border: none;
+		-moz-box-sizing: none;
+		-webkit-box-sizing: none;
+}
+.guest-add::after {
+	content: "";
+	position: absolute;
+	right: 10px;
+	width: 39px;
+	height: 36px; 
+	text-align: center;
+	background-color: #f2f2f2;
 	background-image: url(../img/calendar.svg);
 	background-repeat: no-repeat;
 	background-position: center;
