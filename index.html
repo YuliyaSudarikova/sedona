@@ -108,28 +108,59 @@
 			<div class="interest">
 				<p class="demand">Заинтересовались?</p>
 				<p class="demand-description">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
+				<a class="btn-brown btn-brown-search" href="form.html">Поиск гостиницы в седонe</a>
 			</div>
+			
 		</div>
 		<div class="map"></div>
 	</main>
-		<footer class="footer clearfix">
-			<div class="footer-hashtag">
-				<p class="tag">#visitsedona</p>
+	<footer class="footer clearfix">
+		<div class="footer-hashtag">
+			<p class="tag">#visitsedona</p>
+		</div>
+		<div class="footer-social">
+			<a class="social-btn social-tw" href="#"></a>
+			<a class="social-btn social-fb" href="#"></a>
+			<a class="social-btn social-yt" href="#"></a>
+		</div>
+		<div class="footer-copyright">
+			<div class="author">
+				<p class="copyright-link">website by</p>
+				<a class="author-link" href="https://htmlacademy.ru"></a>
 			</div>
-			<div class="footer-social">
-				<a class="social-btn social-tw" href="#"></a>
-				<a class="social-btn social-yt" href="#"></a>
-				<a class="social-btn social-fb" href="#"></a>
+		</div>
+	</footer>
+	<div class="form-search-sedona">
+		<form action="#" method="post">
+			<!-- <button class="modal-content-close" title="Закрыть"></button> -->
+			<div class="param-block">
+				<p class="form-param">Дата заезда:</p>
+				<label for="date-check-in">
+					<input class="search-date field-check" id="date-check-in" name="date-check-in" type="month" placeholder="24 октября 2017">
+				</label>
 			</div>
-			<div class="footer-copyright">
-				<div class="author">
-					<p class="copyright-link">website by</p>
-					<a class="author-link" href="https://htmlacademy.ru">
-						<img src="img/logo_copyright.png" width="115" height="41" alt="HTML-Academy">
-					</a>
-				</div>
+			<div class="param-block">
+				<p class="form-param">Дата выезда:</p>
+				<label for="date-checkout">
+					<input class="search-date field-check" id="date-checkout" name="date-checkout" type="date" placeholder="24 ноября 2017">
+				</label>
 			</div>
-		</footer>
+			<div class="param-block">
+				<p class="form-param">Взрослые:</p>
+				<label for="adults">
+					<input class="search-guest" id="adults" name="adults" type="number" min="1" max="20">
+				</label>
+				<p class="form-param">Дети:</p>
+				<label for="children">
+					<input class="search-guest" id="children" name="children" type="number" min="1" max="20">
+				</label>
+			</div>
+
+			<div class="search-modal-btn">
+				<button class="btn-blue btn-search-modal" type="submit" value="Найти">Найти</button>
+			</div>
+		</form>
+	</div>
 			
 			
 		
