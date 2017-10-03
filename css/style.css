@@ -66,10 +66,7 @@ a {
 	padding-top: 15px;
 	width: 239px;
 }
-.main-navigation-item:hover {
-	background-color: #dfedf6;
-	color: #81b3d2;
-}
+
 .main-navigation-link:hover {
 	color: #81b3d2;
 }
@@ -265,23 +262,28 @@ a {
 	display: inline-block;
 	width: 46px;
 	height: 46px;
-	vertical-align: middle;	
+	vertical-align: middle;
+	background-image: url(../img/social_btn.png);
+	background-repeat:  no-repeat;
+	background-color: #81b3d2;
+}	
 }
-.social-btn:hover {
-	background: #669ec0;
+.footer-social .social-btn:hover {
+	background-color: #669ec0;
+	opacity: 0.3;
 }
-.social-btn:active {
+/*.social-btn:active {
 	background-color: #5496bd;
-}
+}*/
 
 .social-tw {
-	background: url(../img/social_btn.png) no-repeat center left #81b3d2;
+	background-position: left;
 }
 .social-yt {
-	background: url(../img/social_btn.png) no-repeat center right #81b3d2;
+	background-position: center;
 }
 .social-fb {
-	background: url(../img/social_btn.png) no-repeat center #81b3d2;
+	background-position: right;
 }
 
 
